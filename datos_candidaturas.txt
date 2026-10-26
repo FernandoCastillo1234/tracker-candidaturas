@@ -1,0 +1,16 @@
+id;titulo;empresa;estado;fechaPostulacion;enlace;notas
+1;Desarrollador Backend Java;Indra;pendiente;10/08/2026;https://indra.es/oferta/1;Aplicado por LinkedIn
+2;Técnico de Sistemas;Telefónica;entrevista;15/08/2026;https://telefonica.es/empleo;Entrevista técnica el viernes
+3;Programador Junior;NTT Data;rechazado;20/08/2026;https://nttdata.com/es;Falta de experiencia en Spring
+4;Analista de Datos;BBVA;aceptado;25/08/2026;https://bbva.es/careers;Oferta aceptada, envío de contrato
+5;Desarrollador Fullstack;Indra;entrevista;01/09/2026;https://indra.es/oferta/5;Prueba técnica superada
+6;Frontend Developer;Capgemini;pendiente;05/09/2026;https://capgemini.com;Referenciado por un compañero
+7;Administrador de BD;Telefónica;rechazado;10/09/2026;https://telefonica.es;Cerraron la vacante
+8;Desarrollador Java Junior;NTT Data;entrevista;12/09/2026;https://nttdata.com;Entrevista con RRHH superada
+9;Ingeniero de Software;Amazon;pendiente;15/09/2026;https://amazon.jobs;En revisión
+10;Backend Developer;Capgemini;aceptado;18/09/2026;https://capgemini.com/empleo;Condiciones negociadas
+11;Soporte Técnico Nivel 2;Indra;rechazado;20/09/2026;https://indra.es;Buscaban perfil de redes
+12;Desarrollador Multiplataforma;Telefónica;pendiente;22/09/2026;https://telefonica.es/dev;CV enviado
+13;Junior Java Dev;BBVA;entrevista;25/09/2026;https://bbva.es/tech;Preparar prueba técnica
+14;QA Tester;NTT Data;aceptado;28/09/2026;https://nttdata.com/qa;Empiezo el mes que viene
+15;Arquitecto de Software Junior;Amazon;pendiente;02/10/2026;https://amazon.jobs/arch;Esperando respuesta

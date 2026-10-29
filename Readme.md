@@ -25,5 +25,5 @@ Sistema CLI para la gestión y seguimiento de candidaturas de empleo mediante al
 | **Pedro**    | Dataset inicial, comandos `listar`, `ver`, `borrar` y manual de uso. |
 
 ## Diseño de Interfaces
-* **Enlace al Prototipo de Figma:** [Ver Prototipo Interactivo en Figma](Tracker Candidaturas - Prototipo v1.0)
+* **Enlace al Prototipo de Figma:** [Ver Prototipo Interactivo en Figma](https://www.figma.com/design/HCP0Uwl6S73VirP3sN0QpV/Tracker-Candidaturas---Prototipo-v1.0?node-id=0-1&t=A6PFzy6epfyatHd2-1)
 * **Archivo de Datos de Prueba:** [candidaturas.csv](./candidaturas.csv)

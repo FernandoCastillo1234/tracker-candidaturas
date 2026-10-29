@@ -15,4 +15,11 @@ Sistema CLI para la gestión y seguimiento de candidaturas de empleo mediante al
 3. **Filtrar:** `java -cp src/main/java Main listar --estado pendiente --empresa Indra`
 4. **Añadir:** `java -cp src/main/java Main añadir --titulo "Dev" --empresa "Sopra" --estado "pendiente" --fecha "15/10/2026"`
 5. **Ver detalles:** `java -cp src/main/java Main ver 13`
-6. **Borrar:** `java -cp src/main/java Main borrar 13 
+6. **Borrar:** `java -cp src/main/java Main borrar 13`
+
+## Tabla de Contribuciones v1.0
+
+| Miembro | Tareas Realizadas |
+| :--- | :--- |
+| **Fernando** | Estructura CLI, comando `importar`, comando `añadir`, archivo `.gitignore`. |
+| **Alumno B** | Dataset inicial, comandos `listar`, `ver`, `borrar` y manual de uso. |h

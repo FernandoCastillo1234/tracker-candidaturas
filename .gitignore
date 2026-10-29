@@ -1,0 +1,7 @@
+# Archivos compilados e IDE
+*.class
+*.jar
+out/
+build/
+.idea/
+*.iml

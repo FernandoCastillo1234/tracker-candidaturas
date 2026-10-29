@@ -53,10 +53,8 @@ public class Main {
 
         for (String linea : lineas) {
             if (linea.startsWith("id;") || linea.trim().isEmpty()) continue;
-
             String[] partes = linea.split(";");
             if (partes.length < 4) continue;
-
             String empresa = partes[2];
             String estado = partes[3];
 
@@ -114,7 +112,6 @@ public class Main {
             System.out.println("Error: Falta el ID. Uso: ver <id>");
             return;
         }
-
         String idBuscado = args[1];
         if (!Files.exists(Paths.get(ARCHIVO_DATOS))) {
             System.out.println("Error: Archivo de datos no encontrado.");
@@ -184,10 +181,8 @@ public class Main {
 
         List<String> lineasNuevas = Files.readAllLines(archivoImportar);
         boolean esPrimerArchivo = !Files.exists(Paths.get(ARCHIVO_DATOS));
-
         try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(ARCHIVO_DATOS),
                 esPrimerArchivo ? StandardOpenOption.CREATE : StandardOpenOption.APPEND)) {
-
             for (int i = 0; i < lineasNuevas.size(); i++) {
                 if (!esPrimerArchivo && i == 0 && lineasNuevas.get(i).startsWith("id;")) continue;
                 writer.write(lineasNuevas.get(i));
